@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "title": "Themis Courts 2027 | Law Simulation"
+  },
+  "nav": {
+    "home": "Home",
+    "courts": "Courts",
+    "team": "Team",
+    "venue": "Venue",
+    "sponsors": "Sponsors",
+    "faq": "F.A.Q.",
+    "contact": "Contact",
+    "notFound": "Page Not Found",
+    "apply": "Apply",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "4th Edition · 5–6–7 February 2027 · Istanbul",
+    "apply": "Apply Now",
+    "explore": "Explore the Courts",
+    "started": "Hearings are in session — good luck to all!",
+    "units": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    }
+  },
+  "letters": {
+    "eyebrow": "Welcome",
+    "title": "Letters from the Board",
+    "items": {
+      "director": {
+        "tab": "Director-General",
+        "role": "Director-General",
+        "greeting": "Dear Participants,",
+        "body": [
+          "A courtroom is shaped not only by the laws it upholds, but by the minds that challenge, interpret, and redefine them.",
+          "As Director General of Themis Court, I welcome you to an experience that invites you to think boldly, argue thoughtfully, and see beyond your own perspective. May this journey challenge your convictions, broaden your horizons, and leave you with more questions worth pursuing.",
+          "Themis Court is not simply a place to present arguments, but a place to discover the value of your voice.",
+          "Welcome to Themis Court. The floor is yours."
+        ],
+        "closing": "Kind regards,"
+      },
+      "secretary": {
+        "tab": "Secretary-General",
+        "role": "Secretary-General",
+        "greeting": "Dear esteemed participants of Themis Court Simulations’27,",
+        "body": [
+          "It is a great honor for me to welcome you to the 11th year of Themis Court Simulations as the Secretary General of this conference.",
+          "In the 11th year of our conference, we are combining the experience and success built over the years with our own ideas and energy. We are working hard with our brilliant young and academic team to provide you with an unforgettable experience.",
+          "This year, we have prepared six different courts for you, and I am very excited to announce them: Türkiye Cumhuriyeti Anayasa Mahkemesi (AYM), Türkiye Cumhuriyeti Ağır Ceza Mahkemesi (ACM), the Court of Arbitration for Sport (CAS), the Istanbul Arbitration Centre (ISTAC), the European Court of Human Rights (ECtHR) and the World Intellectual Property Organization (WIPO).",
+          "For us, Themis Courts is more than just a simulation. It is an opportunity to learn from one another, challenge our perspectives, and create meaningful connections along the way. I am truly honored to be part of this journey and to work alongside such a dedicated team. We look forward to welcoming you all and creating an unforgettable experience together.",
+          "Wishing you a pleasant moot court experience."
+        ],
+        "closing": "Kind regards,"
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "Our Impact",
+    "title": "Themis Courts in Numbers",
+    "items": [
+      {
+        "icon": "users",
+        "value": 500,
+        "suffix": "+",
+        "label": "Participants"
+      },
+      {
+        "icon": "university",
+        "value": 15,
+        "suffix": "+",
+        "label": "Universities"
+      },
+      {
+        "icon": "calendar",
+        "value": 4,
+        "suffix": "",
+        "label": "Years of Tradition"
+      },
+      {
+        "icon": "scale",
+        "value": 6,
+        "suffix": "",
+        "label": "Distinct Courts"
+      }
+    ]
+  },
+  "languages": {
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "courts": {
+    "eyebrow": "Committees",
+    "title": "Courts",
+    "subtitle": "Choose from six courts, each running on an original case file and its own rules of procedure.",
+    "language": "Working language",
+    "details": "Learn More",
+    "less": "Show Less",
+    "apply": "Apply",
+    "items": {
+      "aym": {
+        "abbr": "AYM",
+        "name": "Constitutional Court of Türkiye",
+        "topic": "Individual application: digital surveillance and the right to privacy",
+        "description": "Participants will argue, through the individual application procedure, whether mass data collection practices violate the right to privacy under Article 20 of the Constitution."
+      },
+      "ecthr": {
+        "abbr": "ECtHR",
+        "name": "European Court of Human Rights",
+        "topic": "Freedom of expression and platform liability",
+        "description": "In a fictional Grand Chamber case, the liability of online platforms for user-generated content will be assessed under Article 10 of the Convention."
+      },
+      "cas": {
+        "abbr": "CAS",
+        "name": "Court of Arbitration for Sport",
+        "topic": "Anti-doping violations and athletes' rights",
+        "description": "An appeal against a ban imposed by an international federation will be heard in arbitration under the WADA Code and the principle of proportionality."
+      },
+      "family": {
+        "abbr": "FAM",
+        "name": "Family Court",
+        "topic": "International child abduction and custody",
+        "description": "The best interests of the child will be debated in a custody dispute between parents living in different countries under the Hague Convention."
+      },
+      "ma": {
+        "abbr": "M&A",
+        "name": "Mergers & Acquisitions",
+        "topic": "Hostile takeovers and the board's duty of loyalty",
+        "description": "The legality of defensive measures against a takeover bid for a listed tech company will be simulated through negotiation and arbitration phases."
+      },
+      "icc": {
+        "abbr": "ICC",
+        "name": "International Criminal Court",
+        "topic": "Environmental destruction and crimes against humanity",
+        "description": "The court will decide whether deliberate environmental devastation during armed conflict constitutes a crime against humanity under the Rome Statute."
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "Our Team",
+    "title": "The People Behind the Bench",
+    "subtitle": "Meet the academic and organizing teams who make Themis Courts possible.",
+    "tabs": {
+      "organization": "Organization Team",
+      "academy": "Academy Team"
+    },
+    "groups": {
+      "executive": "Executive Board",
+      "orgBoard": "Directorate General",
+      "directors": "Directors",
+      "secretariat": "Secretariat",
+      "usgs": "Under Secretaries-General"
+    },
+    "departments": {
+      "pr": "PR",
+      "finance": "Finance",
+      "logistics": "Logistics",
+      "sponsorship": "Sponsorship",
+      "design": "Design",
+      "media": "Media"
+    },
+    "roles": {
+      "executiveMember": "Executive Board Member",
+      "directorGeneral": "Director-General",
+      "deputyDirectorGeneral": "Deputy Director-General",
+      "director": "Director of {{dept}}",
+      "chiefOfStaff": "Chief of Administrative Staff",
+      "itCoHead": "Co-Head of IT",
+      "secretaryGeneral": "Secretary-General",
+      "deputySecretaryGeneral": "Deputy Secretary-General",
+      "usg": "Under Secretary-General of {{court}}"
+    }
+  },
+  "venue": {
+    "eyebrow": "Venue",
+    "title": "Kadir Has University Cibali Campus",
+    "description": "The conference takes place at Kadir Has University's Cibali Campus, housed in the historic Cibali Tobacco Factory on the shore of the Golden Horn — in the heart of the historic peninsula and easy to reach by public transport.",
+    "addressLabel": "Address",
+    "address": "Kadir Has University Cibali Campus, Cibali Mah. Kadir Has Cad., 34083 Fatih / Istanbul",
+    "highlights": [
+      "The restored historic Cibali Tobacco Factory building",
+      "Session and event spaces overlooking the Golden Horn",
+      "Walking distance from the M2 Haliç metro station"
+    ],
+    "mapTitle": "Map of the venue",
+    "directions": "Get directions"
+  },
+  "logistics": {
+    "eyebrow": "Getting There",
+    "title": "How Do I Reach the Campus?",
+    "subtitle": "Wherever you arrive from, here is a step-by-step guide to the campus.",
+    "routes": {
+      "airport": {
+        "title": "From the Airport",
+        "duration": "~ 70 min",
+        "steps": [
+          "From the arrivals floor, take the M11 Gayrettepe–Istanbul Airport metro.",
+          "Transfer to the M2 line at Gayrettepe, heading towards Yenikapı.",
+          "Get off at Haliç station and use the Unkapanı exit.",
+          "Walk along the Golden Horn shore to Cibali and the campus (~12 min)."
+        ]
+      },
+      "metro": {
+        "title": "By Metro",
+        "duration": "~ 15 min",
+        "steps": [
+          "Take the M2 Yenikapı–Hacıosman line to Haliç station.",
+          "Use the Unkapanı exit.",
+          "Walk along the Golden Horn shore to Cibali (~12 min), or take a coastal-road bus to the Cibali stop."
+        ]
+      },
+      "bus": {
+        "title": "From the Bus Terminal",
+        "duration": "~ 50 min",
+        "steps": [
+          "From the Grand Istanbul Bus Terminal, take the M1A metro to Yenikapı.",
+          "Transfer to the M2 line at Yenikapı and get off at Haliç station.",
+          "From the Unkapanı exit, walk along the Golden Horn shore to Cibali Campus (~12 min)."
+        ]
+      }
+    }
+  },
+  "sponsors": {
+    "eyebrow": "Our Supporters",
+    "title": "Our Sponsors",
+    "subtitle": "We thank the organisations that power Themis Courts.",
+    "tiers": {
+      "gold": "Gold Sponsors",
+      "silver": "Silver Sponsors",
+      "bronze": "Bronze Sponsors"
+    },
+    "cta": "Want to meet the next generation of lawyers?",
+    "ctaButton": "Become a Sponsor"
+  },
+  "faq": {
+    "eyebrow": "F.A.Q.",
+    "title": "Frequently Asked Questions",
+    "subtitle": "The most common questions about applications, fees and accommodation.",
+    "more": "Didn't find what you were looking for?",
+    "contact": "Write to us",
+    "items": [
+      {
+        "q": "How much are the application fees?",
+        "a": "The individual fee is 1,250 TRY; delegation members pay 1,100 TRY per person. The fee covers conference materials, lunches and the closing gala."
+      },
+      {
+        "q": "How does the interview process work?",
+        "a": "After an initial review of the application form, candidates are invited to a 15-minute online interview assessing legal reasoning and interest in the chosen court."
+      },
+      {
+        "q": "How will transportation be provided?",
+        "a": "Free shuttles will run from the bus terminal and airport for out-of-town participants. For public transport, see the guide in the Venue section."
+      },
+      {
+        "q": "Is accommodation support available?",
+        "a": "Our partner hotels offer discounted rates for participants. Details are shared with your acceptance email."
+      },
+      {
+        "q": "Do I have to be a law student?",
+        "a": "Most courts are aimed at law students, but students of business, economics and sports science may also apply to the CAS and M&A committees."
+      },
+      {
+        "q": "Will I receive a certificate?",
+        "a": "Yes. Delegates who attend all sessions receive a digital certificate of participation, and award winners receive an award certificate."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "Write to us with questions, partnership proposals or press requests; we reply within 48 hours.",
+    "emailsTitle": "Department Emails",
+    "departments": {
+      "general": "General",
+      "academic": "Academic",
+      "pr": "Public Relations",
+      "finance": "Finance",
+      "logistics": "Logistics"
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "department": "Department",
+      "message": "Your message",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "success": "Thank you! Your message has reached us.",
+      "error": "Something went wrong, please try again later."
+    }
+  },
+  "footer": {
+    "tagline": "A national law simulation bringing future lawyers a real courtroom experience.",
+    "quickLinks": "Quick Links",
+    "follow": "Follow Us",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "text": "The page you are looking for may have moved or never existed.",
+    "back": "Back to Home"
+  }
+}

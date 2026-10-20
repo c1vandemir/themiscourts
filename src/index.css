@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* ── Design tokens ─────────────────────────────────────────────── */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
+
+  /* Palet: yalnızca lacivert (#000F4F) ve beyaz.
+     500–950 saf lacivert; 50–400 aynı rengin beyazla karışımı (açık zemin, kenarlık, pasif metin). */
+  --color-navy: #000f4f;
+  --color-navy-50: color-mix(in srgb, #000f4f 4%, white);
+  --color-navy-100: color-mix(in srgb, #000f4f 10%, white);
+  --color-navy-200: color-mix(in srgb, #000f4f 20%, white);
+  --color-navy-300: color-mix(in srgb, #000f4f 40%, white);
+  --color-navy-400: color-mix(in srgb, #000f4f 60%, white);
+  --color-navy-500: #000f4f;
+  --color-navy-600: #000f4f;
+  --color-navy-700: #000f4f;
+  --color-navy-800: #000f4f;
+  --color-navy-900: #000f4f;
+  --color-navy-950: #000f4f;
+
+  /* Anlamsal renkler: beyaz zeminli bölümlerde bunlar kullanılır */
+  --color-page: #ffffff;                                        /* sayfa zemini */
+  --color-page-alt: color-mix(in srgb, #000f4f 4%, white);      /* dönüşümlü bölüm zemini, çipler */
+  --color-card: #ffffff;                                        /* kart zemini */
+  --color-ink: #000f4f;                                         /* ana metin */
+  --color-muted: color-mix(in srgb, #000f4f 60%, white);        /* ikincil metin */
+  --color-line: color-mix(in srgb, #000f4f 10%, white);         /* kenarlık, ayraç */
+  --color-accent: #000f4f;                                      /* vurgu zemini (sekme, ikon rozeti, çizgi) */
+  --color-on-accent: #ffffff;
+
+  --animate-marquee: marquee 40s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-page font-sans text-ink antialiased transition-colors duration-300;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-ink;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-marquee { animation: none; }
+}

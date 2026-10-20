@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "title": "Themis Courts 2027 | Hukuk Simülasyonu"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "courts": "Mahkemeler",
+    "team": "Ekip",
+    "venue": "Mekan",
+    "sponsors": "Sponsorlar",
+    "faq": "S.S.S.",
+    "contact": "İletişim",
+    "notFound": "Sayfa Bulunamadı",
+    "apply": "Başvur",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil seçimi"
+  },
+  "hero": {
+    "eyebrow": "4. Dönem · 5–6–7 Şubat 2027 · İstanbul",
+    "apply": "Hemen Başvur",
+    "explore": "Mahkemeleri Keşfet",
+    "started": "Duruşmalar başladı — hepinize başarılar!",
+    "units": {
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "seconds": "Saniye"
+    }
+  },
+  "letters": {
+    "eyebrow": "Hoş Geldiniz",
+    "title": "Yönetimden Mektuplar",
+    "items": {
+      "director": {
+        "tab": "Genel Direktör",
+        "role": "Genel Direktör",
+        "greeting": "Değerli Katılımcılar,",
+        "body": [
+          "Bir mahkeme salonunu yalnızca koruduğu yasalar değil; o yasaları sorgulayan, yorumlayan ve yeniden tanımlayan zihinler de şekillendirir.",
+          "Themis Court'un Genel Direktörü olarak sizi cesurca düşünmeye, özenle savunmaya ve kendi bakış açınızın ötesini görmeye davet eden bir deneyime hoş geldiniz diyorum. Bu yolculuk inançlarınızı sınasın, ufkunuzu genişletsin ve size peşinden gitmeye değer yeni sorular bıraksın.",
+          "Themis Court yalnızca argümanların sunulduğu bir yer değil; sesinizin değerini keşfedeceğiniz bir yerdir.",
+          "Themis Court'a hoş geldiniz. Söz sizde."
+        ],
+        "closing": "Saygılarımla,"
+      },
+      "secretary": {
+        "tab": "Genel Sekreter",
+        "role": "Genel Sekreter",
+        "greeting": "Themis Court Simulations’27'nin değerli katılımcıları,",
+        "body": [
+          "Themis Court Simulations'ın 11. yılında sizleri bu konferansın Genel Sekreteri olarak ağırlamak benim için büyük bir onur.",
+          "Konferansımızın 11. yılında, yıllar içinde inşa edilen deneyim ve başarıyı kendi fikirlerimiz ve enerjimizle birleştiriyoruz. Parlak, genç ve akademik ekibimizle sizlere unutulmaz bir deneyim yaşatmak için var gücümüzle çalışıyoruz.",
+          "Bu yıl sizler için altı farklı mahkeme hazırladık ve bu mahkemeleri duyurmaktan büyük heyecan duyuyorum: Türkiye Cumhuriyeti Anayasa Mahkemesi (AYM), Türkiye Cumhuriyeti Ağır Ceza Mahkemesi (ACM), Spor Tahkim Mahkemesi (CAS), İstanbul Tahkim Merkezi (ISTAC), Avrupa İnsan Hakları Mahkemesi (AİHM) ve Dünya Fikri Mülkiyet Örgütü (WIPO).",
+          "Bizim için Themis Courts bir simülasyondan çok daha fazlası. Birbirimizden öğrenmek, bakış açılarımızı sorgulamak ve bu yolda anlamlı bağlar kurmak için bir fırsat. Bu yolculuğun bir parçası olmaktan ve böylesine özverili bir ekiple birlikte çalışmaktan gerçekten onur duyuyorum. Hepinizi ağırlamayı ve birlikte unutulmaz bir deneyim yaratmayı sabırsızlıkla bekliyoruz.",
+          "Hepinize keyifli bir mahkeme simülasyonu deneyimi dilerim."
+        ],
+        "closing": "Saygılarımla,"
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "Etkimiz",
+    "title": "Rakamlarla Themis Courts",
+    "items": [
+      {
+        "icon": "users",
+        "value": 500,
+        "suffix": "+",
+        "label": "Katılımcı"
+      },
+      {
+        "icon": "university",
+        "value": 15,
+        "suffix": "+",
+        "label": "Üniversite"
+      },
+      {
+        "icon": "calendar",
+        "value": 4,
+        "suffix": "",
+        "label": "Yıllık Köklü Gelenek"
+      },
+      {
+        "icon": "scale",
+        "value": 6,
+        "suffix": "",
+        "label": "Farklı Mahkeme"
+      }
+    ]
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "İngilizce"
+  },
+  "courts": {
+    "eyebrow": "Komiteler",
+    "title": "Mahkemeler",
+    "subtitle": "Her biri özgün bir vaka dosyası ve kendi usul kurallarıyla çalışan altı mahkemeden size en uygun olanı seçin.",
+    "language": "Çalışma dili",
+    "details": "Daha Fazla Bilgi",
+    "less": "Daha Az Göster",
+    "apply": "Başvur",
+    "items": {
+      "aym": {
+        "abbr": "AYM",
+        "name": "Anayasa Mahkemesi",
+        "topic": "Bireysel başvuru: dijital gözetim ve özel hayatın gizliliği",
+        "description": "Katılımcılar, kitlesel veri toplama uygulamalarının Anayasa'nın 20. maddesi kapsamındaki özel hayatın gizliliği hakkını ihlal edip etmediğini bireysel başvuru usulüyle tartışacak."
+      },
+      "ecthr": {
+        "abbr": "ECtHR",
+        "name": "Avrupa İnsan Hakları Mahkemesi",
+        "topic": "İfade özgürlüğü ve sosyal medya platformlarının sorumluluğu",
+        "description": "Büyük Daire önünde görülen kurgusal bir davada, platformların kullanıcı içeriğinden doğan sorumluluğu AİHS 10. madde ışığında değerlendirilecek."
+      },
+      "cas": {
+        "abbr": "CAS",
+        "name": "Spor Tahkim Mahkemesi",
+        "topic": "Doping ihlali ve sporcu hakları",
+        "description": "Uluslararası bir federasyonun verdiği men cezasına karşı yapılan itiraz, WADA Kodu ve ölçülülük ilkesi çerçevesinde tahkim usulüyle incelenecek."
+      },
+      "family": {
+        "abbr": "AİLE",
+        "name": "Aile Mahkemesi",
+        "topic": "Uluslararası çocuk kaçırma ve velayet",
+        "description": "Lahey Sözleşmesi kapsamında çocuğun üstün yararı ilkesi, farklı ülkelerde yaşayan ebeveynler arasındaki velayet uyuşmazlığında tartışılacak."
+      },
+      "ma": {
+        "abbr": "M&A",
+        "name": "Birleşme & Devralmalar",
+        "topic": "Düşmanca devralma ve yönetim kurulunun sadakat yükümlülüğü",
+        "description": "Halka açık bir teknoloji şirketine yönelik devralma teklifine karşı alınan savunma tedbirlerinin hukuka uygunluğu, müzakere ve tahkim aşamalarıyla simüle edilecek."
+      },
+      "icc": {
+        "abbr": "ICC",
+        "name": "Uluslararası Ceza Mahkemesi",
+        "topic": "Çevresel yıkım ve insanlığa karşı suçlar",
+        "description": "Silahlı çatışma sırasında gerçekleştirilen kasıtlı çevresel tahribatın Roma Statüsü kapsamında insanlığa karşı suç teşkil edip etmediği yargılanacak."
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "Ekibimiz",
+    "title": "Perde Arkasındaki İsimler",
+    "subtitle": "Themis Courts'u mümkün kılan akademik ve organizasyon ekiplerimizle tanışın.",
+    "tabs": {
+      "organization": "Organizasyon Ekibi",
+      "academy": "Akademi Ekibi"
+    },
+    "groups": {
+      "executive": "Yürütme Kurulu",
+      "orgBoard": "Genel Direktörlük",
+      "directors": "Direktörler",
+      "secretariat": "Genel Sekreterlik",
+      "usgs": "Mahkeme Akademik Sorumluları"
+    },
+    "departments": {
+      "pr": "Halkla İlişkiler",
+      "finance": "Finans",
+      "logistics": "Lojistik",
+      "sponsorship": "Sponsorluk",
+      "design": "Tasarım",
+      "media": "Medya"
+    },
+    "roles": {
+      "executiveMember": "Yürütme Kurulu Üyesi",
+      "directorGeneral": "Genel Direktör",
+      "deputyDirectorGeneral": "Genel Direktör Yardımcısı",
+      "director": "{{dept}} Direktörü",
+      "chiefOfStaff": "İdari Personel Şefi",
+      "itCoHead": "Bilgi Teknolojileri Eş Başkanı",
+      "secretaryGeneral": "Genel Sekreter",
+      "deputySecretaryGeneral": "Genel Sekreter Yardımcısı",
+      "usg": "{{court}} Akademik Sorumlusu"
+    }
+  },
+  "venue": {
+    "eyebrow": "Mekan",
+    "title": "Kadir Has Üniversitesi Cibali Kampüsü",
+    "description": "Konferans, Haliç kıyısında, tarihi Cibali Tütün Fabrikası binasında hizmet veren Kadir Has Üniversitesi Cibali Kampüsü'nde gerçekleşecek. Tarihi yarımadanın kalbinde, toplu taşımayla kolayca ulaşılabilen bir konumda.",
+    "addressLabel": "Adres",
+    "address": "Kadir Has Üniversitesi Cibali Kampüsü, Cibali Mah. Kadir Has Cad., 34083 Fatih / İstanbul",
+    "highlights": [
+      "Restore edilmiş tarihi Cibali Tütün Fabrikası binası",
+      "Haliç manzaralı oturum ve etkinlik alanları",
+      "M2 Haliç metro istasyonuna yürüme mesafesi"
+    ],
+    "mapTitle": "Etkinlik alanı haritası",
+    "directions": "Yol tarifi al"
+  },
+  "logistics": {
+    "eyebrow": "Ulaşım",
+    "title": "Kampüse Nasıl Ulaşırım?",
+    "subtitle": "Şehre nereden gelirseniz gelin, kampüse ulaşmanız için adım adım rehber.",
+    "routes": {
+      "airport": {
+        "title": "Havalimanından",
+        "duration": "~ 70 dk",
+        "steps": [
+          "Gelen yolcu katından M11 Gayrettepe–İstanbul Havalimanı metrosuna binin.",
+          "Gayrettepe'de M2 hattına aktarma yapıp Yenikapı yönüne gidin.",
+          "Haliç istasyonunda inin ve Unkapanı çıkışını kullanın.",
+          "Haliç kıyısı boyunca Cibali'ye yürüyerek kampüse ulaşın (~12 dk)."
+        ]
+      },
+      "metro": {
+        "title": "Metro ile",
+        "duration": "~ 15 dk",
+        "steps": [
+          "M2 Yenikapı–Hacıosman hattıyla Haliç istasyonuna gelin.",
+          "Unkapanı çıkışını kullanın.",
+          "Haliç kıyısı boyunca Cibali'ye yürüyün (~12 dk) ya da sahil yolundaki otobüslerle Cibali durağında inin."
+        ]
+      },
+      "bus": {
+        "title": "Otogardan",
+        "duration": "~ 50 dk",
+        "steps": [
+          "Büyük İstanbul Otogarı'ndan M1A metrosuyla Yenikapı'ya gidin.",
+          "Yenikapı'da M2 hattına aktarma yapıp Haliç istasyonunda inin.",
+          "Unkapanı çıkışından Haliç kıyısı boyunca Cibali Kampüsü'ne yürüyün (~12 dk)."
+        ]
+      }
+    }
+  },
+  "sponsors": {
+    "eyebrow": "Destekçilerimiz",
+    "title": "Sponsorlarımız",
+    "subtitle": "Themis Courts'a güç veren kurumlara teşekkür ederiz.",
+    "tiers": {
+      "gold": "Altın Sponsorlar",
+      "silver": "Gümüş Sponsorlar",
+      "bronze": "Bronz Sponsorlar"
+    },
+    "cta": "Genç hukukçularla buluşmak ister misiniz?",
+    "ctaButton": "Sponsorumuz Olun"
+  },
+  "faq": {
+    "eyebrow": "S.S.S.",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Başvuru, ücretler ve konaklama hakkında en çok merak edilenler.",
+    "more": "Aradığınız cevabı bulamadınız mı?",
+    "contact": "Bize yazın",
+    "items": [
+      {
+        "q": "Başvuru ücretleri ne kadar?",
+        "a": "Bireysel katılım ücreti 1.250 TL, delegasyon katılımında kişi başı 1.100 TL'dir. Ücrete konferans materyalleri, öğle yemekleri ve kapanış gecesi dahildir."
+      },
+      {
+        "q": "Mülakat süreci nasıl işliyor?",
+        "a": "Başvuru formunu dolduran adaylar, ön değerlendirmenin ardından 15 dakikalık çevrim içi bir mülakata davet edilir. Mülakatta hukuki muhakeme ve tercih ettiğiniz mahkemeye ilginiz değerlendirilir."
+      },
+      {
+        "q": "Ulaşım nasıl sağlanacak?",
+        "a": "Şehir dışından gelen katılımcılar için otogar ve havalimanından ücretsiz servis düzenlenecektir. Toplu taşıma ile ulaşım için Mekan bölümündeki rehberi inceleyebilirsiniz."
+      },
+      {
+        "q": "Konaklama desteği var mı?",
+        "a": "Anlaşmalı otellerimizde katılımcılara özel indirimli fiyatlar sunulmaktadır. Detaylar kabul e-postasıyla birlikte paylaşılır."
+      },
+      {
+        "q": "Hukuk fakültesi öğrencisi olmam şart mı?",
+        "a": "Mahkemelerin çoğu hukuk öğrencilerine yöneliktir; ancak CAS ve M&A komitelerine işletme, iktisat ve spor bilimleri öğrencileri de başvurabilir."
+      },
+      {
+        "q": "Katılım belgesi verilecek mi?",
+        "a": "Evet. Tüm oturumlara katılan delegelere dijital katılım sertifikası, dereceye girenlere ise ödül belgesi verilir."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Sorularınız, iş birliği teklifleriniz veya basın talepleriniz için bize yazın; en geç 48 saat içinde dönüş yapıyoruz.",
+    "emailsTitle": "Departman E-postaları",
+    "departments": {
+      "general": "Genel",
+      "academic": "Akademik",
+      "pr": "Halkla İlişkiler",
+      "finance": "Finans",
+      "logistics": "Lojistik"
+    },
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "department": "Departman",
+      "message": "Mesajınız",
+      "submit": "Mesajı Gönder",
+      "sending": "Gönderiliyor…",
+      "success": "Teşekkürler! Mesajınız bize ulaştı.",
+      "error": "Bir sorun oluştu, lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "footer": {
+    "tagline": "Geleceğin hukukçularını gerçek kürsü deneyimiyle buluşturan ulusal hukuk simülasyonu.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "follow": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır.",
+    "backToTop": "Başa dön"
+  },
+  "notFound": {
+    "text": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir.",
+    "back": "Ana Sayfaya Dön"
+  }
+}
