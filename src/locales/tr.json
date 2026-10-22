@@ -17,7 +17,7 @@
     "language": "Dil seçimi"
   },
   "hero": {
-    "eyebrow": "4. Dönem · 5–6–7 Şubat 2027 · İstanbul",
+    "eyebrow": "5–6–7 Şubat 2027",
     "apply": "Hemen Başvur",
     "explore": "Mahkemeleri Keşfet",
     "started": "Duruşmalar başladı — hepinize başarılar!",
@@ -77,9 +77,9 @@
       },
       {
         "icon": "calendar",
-        "value": 4,
+        "value": 11,
         "suffix": "",
-        "label": "Yıllık Köklü Gelenek"
+        "label": "Yıllık Gelenek"
       },
       {
         "icon": "scale",
@@ -96,47 +96,47 @@
   "courts": {
     "eyebrow": "Komiteler",
     "title": "Mahkemeler",
-    "subtitle": "Her biri özgün bir vaka dosyası ve kendi usul kurallarıyla çalışan altı mahkemeden size en uygun olanı seçin.",
+    "subtitle": "Dördü Türkçe, ikisi İngilizce olmak üzere altı mahkemeden size en uygun olanı seçin.",
     "language": "Çalışma dili",
     "details": "Daha Fazla Bilgi",
     "less": "Daha Az Göster",
     "apply": "Başvur",
     "items": {
-      "aym": {
-        "abbr": "AYM",
-        "name": "Anayasa Mahkemesi",
-        "topic": "Bireysel başvuru: dijital gözetim ve özel hayatın gizliliği",
-        "description": "Katılımcılar, kitlesel veri toplama uygulamalarının Anayasa'nın 20. maddesi kapsamındaki özel hayatın gizliliği hakkını ihlal edip etmediğini bireysel başvuru usulüyle tartışacak."
-      },
-      "ecthr": {
-        "abbr": "ECtHR",
-        "name": "Avrupa İnsan Hakları Mahkemesi",
-        "topic": "İfade özgürlüğü ve sosyal medya platformlarının sorumluluğu",
-        "description": "Büyük Daire önünde görülen kurgusal bir davada, platformların kullanıcı içeriğinden doğan sorumluluğu AİHS 10. madde ışığında değerlendirilecek."
-      },
       "cas": {
         "abbr": "CAS",
         "name": "Spor Tahkim Mahkemesi",
-        "topic": "Doping ihlali ve sporcu hakları",
-        "description": "Uluslararası bir federasyonun verdiği men cezasına karşı yapılan itiraz, WADA Kodu ve ölçülülük ilkesi çerçevesinde tahkim usulüyle incelenecek."
+        "topic": "Spor uyuşmazlıklarında tahkim",
+        "description": "Spor Tahkim Mahkemesi (CAS), spor alanında ortaya çıkan uyuşmazlıkların tahkim yoluyla çözümlenmesini sağlayan bağımsız bir uyuşmazlık çözüm merciidir. Uluslararası nitelikteki uyuşmazlıkların yanı sıra, ilgili spor federasyonlarının düzenlemeleri ve yetki kuralları çerçevesinde ulusal düzeyde verilen kararlara karşı yapılan başvuruları da inceler. Doping ihlalleri, sporculara verilen disiplin cezaları ve sporcular, kulüpler ile spor kuruluşları arasındaki uyuşmazlıklar; mahkemede başlıca görülen uyuşmazlık türleridir."
       },
-      "family": {
-        "abbr": "AİLE",
-        "name": "Aile Mahkemesi",
-        "topic": "Uluslararası çocuk kaçırma ve velayet",
-        "description": "Lahey Sözleşmesi kapsamında çocuğun üstün yararı ilkesi, farklı ülkelerde yaşayan ebeveynler arasındaki velayet uyuşmazlığında tartışılacak."
+      "istac": {
+        "abbr": "ISTAC",
+        "name": "İstanbul Tahkim Merkezi",
+        "topic": "Ticari uyuşmazlıklarda tahkim ve arabuluculuk",
+        "description": "İstanbul Tahkim Merkezi (ISTAC), Türkiye’deki ve uluslararası ticari uyuşmazlıkların tahkim ve arabuluculuk yoluyla çözülmesini sağlayan bağımsız, tarafsız ve özerk bir kurumdur. Tarafların anlaşması doğrultusunda sözleşmelerden doğan uyuşmazlıkları inceler ve tahkim sonucunda bağlayıcı kararlar verilmesini sağlar."
       },
-      "ma": {
-        "abbr": "M&A",
-        "name": "Birleşme & Devralmalar",
-        "topic": "Düşmanca devralma ve yönetim kurulunun sadakat yükümlülüğü",
-        "description": "Halka açık bir teknoloji şirketine yönelik devralma teklifine karşı alınan savunma tedbirlerinin hukuka uygunluğu, müzakere ve tahkim aşamalarıyla simüle edilecek."
+      "acm": {
+        "abbr": "ACM",
+        "name": "Ağır Ceza Mahkemesi",
+        "topic": "Ağır suçlara ilişkin ceza yargılaması",
+        "description": "Ağır Ceza Mahkemesi, Türk hukuk sisteminde kanunla belirlenen ağır suçlara ilişkin ceza davalarını inceleyen bir ilk derece mahkemesidir. Yağma, irtikâp, nitelikli dolandırıcılık dışındaki kanunda sayılan belirli suçlar, terör suçları ve ağırlaştırılmış müebbet, müebbet veya on yıldan fazla hapis cezasını gerektiren suçlarla ilgili davalara bakar."
       },
-      "icc": {
-        "abbr": "ICC",
-        "name": "Uluslararası Ceza Mahkemesi",
-        "topic": "Çevresel yıkım ve insanlığa karşı suçlar",
-        "description": "Silahlı çatışma sırasında gerçekleştirilen kasıtlı çevresel tahribatın Roma Statüsü kapsamında insanlığa karşı suç teşkil edip etmediği yargılanacak."
+      "aym": {
+        "abbr": "AYM",
+        "name": "Anayasa Mahkemesi",
+        "topic": "Anayasal denetim ve bireysel başvuru",
+        "description": "Anayasa Mahkemesi, Türkiye’de Anayasa’nın üstünlüğünü koruyan en yüksek anayasal yargı organıdır. Kanunların ve Cumhurbaşkanlığı kararnamelerinin Anayasa’ya uygunluğunu denetler. Ayrıca temel hak ve özgürlüklerinin ihlal edildiğini düşünen bireylerin başvurularını inceler. Siyasi partilerin mali denetimini yapar ve kanunda belirtilen durumlarda siyasi partilerin kapatılması davalarına bakar."
+      },
+      "echr": {
+        "abbr": "ECHR",
+        "name": "Avrupa İnsan Hakları Mahkemesi",
+        "topic": "Avrupa İnsan Hakları Sözleşmesi kapsamındaki ihlaller",
+        "description": "Avrupa İnsan Hakları Mahkemesi (ECHR), Avrupa İnsan Hakları Sözleşmesi ile güvence altına alınan temel hak ve özgürlükleri korumakla görevli uluslararası bir mahkemedir. Avrupa Konseyi’ne üye devletlerin Sözleşme’yi ihlal ettiği iddiasıyla bireyler, gruplar ve devletler tarafından yapılan başvuruları inceler. Bir devletin Sözleşme’yi ihlal edip etmediğine dair bağlayıcı kararlar verir ve mağdurlar lehine tazminata hükmedebilir."
+      },
+      "wipo": {
+        "abbr": "WIPO",
+        "name": "Dünya Fikri Mülkiyet Örgütü",
+        "topic": "Fikri mülkiyetin uluslararası korunması",
+        "description": "Dünya Fikri Mülkiyet Örgütü (WIPO), fikri mülkiyetin dünya genelinde korunmasını teşvik etmekle görevli bir Birleşmiş Milletler uzmanlık kuruluşudur. Uluslararası fikri mülkiyet standartlarını geliştirir; patent, marka ve endüstriyel tasarımların uluslararası tescili ve korunmasına yönelik sistemleri yönetir ve fikri mülkiyet uyuşmazlıklarının çözümü için mekanizmalar sunar. Ayrıca fikri mülkiyet alanında uluslararası iş birliğini ve inovasyonu destekler."
       }
     }
   },
@@ -184,7 +184,7 @@
     "highlights": [
       "Restore edilmiş tarihi Cibali Tütün Fabrikası binası",
       "Haliç manzaralı oturum ve etkinlik alanları",
-      "M2 Haliç metro istasyonuna yürüme mesafesi"
+      "T5 tramvayının Cibali durağı ana girişin tam karşısında; M2 Haliç istasyonuna yaklaşık 10 dakika yürüme mesafesinde"
     ],
     "mapTitle": "Etkinlik alanı haritası",
     "directions": "Yol tarifi al"
@@ -198,28 +198,30 @@
         "title": "Havalimanından",
         "duration": "~ 70 dk",
         "steps": [
-          "Gelen yolcu katından M11 Gayrettepe–İstanbul Havalimanı metrosuna binin.",
+          "İstanbul Havalimanı'ndan M11 Gayrettepe–İstanbul Havalimanı metrosuna binin.",
           "Gayrettepe'de M2 hattına aktarma yapıp Yenikapı yönüne gidin.",
-          "Haliç istasyonunda inin ve Unkapanı çıkışını kullanın.",
-          "Haliç kıyısı boyunca Cibali'ye yürüyerek kampüse ulaşın (~12 dk)."
+          "Haliç istasyonunda inin.",
+          "Haliç istasyonundan kampüse yürüyün (~10 dk)."
         ]
       },
       "metro": {
-        "title": "Metro ile",
-        "duration": "~ 15 dk",
+        "title": "Şehir İçinden",
+        "duration": "~ 10 dk yürüme",
         "steps": [
-          "M2 Yenikapı–Hacıosman hattıyla Haliç istasyonuna gelin.",
-          "Unkapanı çıkışını kullanın.",
-          "Haliç kıyısı boyunca Cibali'ye yürüyün (~12 dk) ya da sahil yolundaki otobüslerle Cibali durağında inin."
+          "Tramvay: T5 Eminönü–Alibeyköy hattıyla Cibali durağında inin; durak kampüsün ana girişinin tam karşısındadır.",
+          "Metro: M2 Yenikapı–Hacıosman hattıyla Haliç istasyonunda inin ve kampüse yürüyün (~10 dk).",
+          "Otobüs: 99, 99A, 36CE, 48E veya 399C gibi hatlarla \"Unkapanı-Kadir Has Üniversitesi\" durağında inin.",
+          "Vapur: Eminönü iskelesinden aynı otobüs hatlarıyla Unkapanı-Kadir Has Üniversitesi durağına ulaşabilirsiniz."
         ]
       },
       "bus": {
         "title": "Otogardan",
         "duration": "~ 50 dk",
         "steps": [
-          "Büyük İstanbul Otogarı'ndan M1A metrosuyla Yenikapı'ya gidin.",
+          "Büyük İstanbul (Esenler) Otogarı'ndan M1A metrosuyla Yenikapı'ya gidin.",
           "Yenikapı'da M2 hattına aktarma yapıp Haliç istasyonunda inin.",
-          "Unkapanı çıkışından Haliç kıyısı boyunca Cibali Kampüsü'ne yürüyün (~12 dk)."
+          "Haliç istasyonundan kampüse yürüyün (~10 dk).",
+          "Alibeyköy Cep Otogarı'na gelirseniz T5 tramvayıyla doğrudan Cibali durağına gidebilirsiniz."
         ]
       }
     }
@@ -227,45 +229,35 @@
   "sponsors": {
     "eyebrow": "Destekçilerimiz",
     "title": "Sponsorlarımız",
-    "subtitle": "Themis Courts'a güç veren kurumlara teşekkür ederiz.",
+    "subtitle": "Themis Court Simulations'a destek olmak isteyen kurumlarla tanışmak için sabırsızlanıyoruz.",
     "tiers": {
       "gold": "Altın Sponsorlar",
       "silver": "Gümüş Sponsorlar",
       "bronze": "Bronz Sponsorlar"
     },
     "cta": "Genç hukukçularla buluşmak ister misiniz?",
-    "ctaButton": "Sponsorumuz Olun"
+    "ctaButton": "Sponsorumuz Olun",
+    "emptyTitle": "Sponsorluk görüşmelerimiz devam ediyor",
+    "emptyText": "Sponsorlarımız kesinleştiğinde burada yer alacak. Genç hukukçularla buluşmak isteyen kurumları aramızda görmekten mutluluk duyarız."
   },
   "faq": {
     "eyebrow": "S.S.S.",
     "title": "Sıkça Sorulan Sorular",
-    "subtitle": "Başvuru, ücretler ve konaklama hakkında en çok merak edilenler.",
+    "subtitle": "Ücret, mahkeme dilleri ve sertifikalar hakkında en çok merak edilenler.",
     "more": "Aradığınız cevabı bulamadınız mı?",
     "contact": "Bize yazın",
     "items": [
       {
-        "q": "Başvuru ücretleri ne kadar?",
-        "a": "Bireysel katılım ücreti 1.250 TL, delegasyon katılımında kişi başı 1.100 TL'dir. Ücrete konferans materyalleri, öğle yemekleri ve kapanış gecesi dahildir."
+        "q": "Katılım ücreti ne kadar?",
+        "a": "Katılım ücreti henüz belirlenmedi. Kesinleştiğinde sosyal medya hesaplarımızdan ve web sitemizden duyurulacaktır."
       },
       {
-        "q": "Mülakat süreci nasıl işliyor?",
-        "a": "Başvuru formunu dolduran adaylar, ön değerlendirmenin ardından 15 dakikalık çevrim içi bir mülakata davet edilir. Mülakatta hukuki muhakeme ve tercih ettiğiniz mahkemeye ilginiz değerlendirilir."
-      },
-      {
-        "q": "Ulaşım nasıl sağlanacak?",
-        "a": "Şehir dışından gelen katılımcılar için otogar ve havalimanından ücretsiz servis düzenlenecektir. Toplu taşıma ile ulaşım için Mekan bölümündeki rehberi inceleyebilirsiniz."
-      },
-      {
-        "q": "Konaklama desteği var mı?",
-        "a": "Anlaşmalı otellerimizde katılımcılara özel indirimli fiyatlar sunulmaktadır. Detaylar kabul e-postasıyla birlikte paylaşılır."
-      },
-      {
-        "q": "Hukuk fakültesi öğrencisi olmam şart mı?",
-        "a": "Mahkemelerin çoğu hukuk öğrencilerine yöneliktir; ancak CAS ve M&A komitelerine işletme, iktisat ve spor bilimleri öğrencileri de başvurabilir."
+        "q": "Mahkemeler hangi dillerde yürütülecek?",
+        "a": "Altı mahkememizden dördü Türkçe (CAS, AYM, ACM, ISTAC), ikisi İngilizce (ECHR, WIPO) olarak yürütülecektir. Başvururken mahkeme tercihinizi bu dillere göre yapabilirsiniz."
       },
       {
         "q": "Katılım belgesi verilecek mi?",
-        "a": "Evet. Tüm oturumlara katılan delegelere dijital katılım sertifikası, dereceye girenlere ise ödül belgesi verilir."
+        "a": "Evet. Tüm katılımcılara basılı katılım sertifikası verilecektir; sertifikanın dijital hâli de mevcuttur. Bunun yanı sıra belirli başarı gösteren katılımcılara başarı sertifikası da verilmektedir."
       }
     ]
   },
@@ -275,11 +267,9 @@
     "subtitle": "Sorularınız, iş birliği teklifleriniz veya basın talepleriniz için bize yazın; en geç 48 saat içinde dönüş yapıyoruz.",
     "emailsTitle": "Departman E-postaları",
     "departments": {
-      "general": "Genel",
-      "academic": "Akademik",
+      "general": "Genel İletişim",
       "pr": "Halkla İlişkiler",
-      "finance": "Finans",
-      "logistics": "Lojistik"
+      "sponsorship": "Sponsorluk"
     },
     "form": {
       "name": "Ad Soyad",
@@ -289,7 +279,8 @@
       "submit": "Mesajı Gönder",
       "sending": "Gönderiliyor…",
       "success": "Teşekkürler! Mesajınız bize ulaştı.",
-      "error": "Bir sorun oluştu, lütfen daha sonra tekrar deneyin."
+      "error": "Bir sorun oluştu, lütfen daha sonra tekrar deneyin.",
+      "mailto": "E-posta uygulamanız mesajınızla birlikte açıldı; göndermeyi unutmayın."
     }
   },
   "footer": {

@@ -12,7 +12,7 @@ const fieldClass =
 export default function ContactForm() {
   const { t } = useTranslation();
   const [values, setValues] = useState(initial);
-  const [status, setStatus] = useState('idle'); // idle | sending | success | error
+  const [status, setStatus] = useState('idle'); // idle | sending | success | mailto | error
 
   const update = (e) => setValues((v) => ({ ...v, [e.target.name]: e.target.value }));
 
@@ -27,11 +27,15 @@ export default function ContactForm() {
           body: JSON.stringify(values),
         });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        setStatus('success');
       } else {
-        // Uç nokta tanımlı değil: geliştirme sırasında gönderimi simüle et
-        await new Promise((r) => setTimeout(r, 800));
+        // Uç nokta tanımlı değil: seçilen departmanın adresine e-posta taslağı aç
+        const to = site.emails.find((e) => e.department === values.department)?.address ?? site.emails[0].address;
+        const subject = encodeURIComponent(`${site.fullName} – ${values.name}`);
+        const body = encodeURIComponent(`${values.message}\n\n${values.name}\n${values.email}`);
+        window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+        setStatus('mailto');
       }
-      setStatus('success');
       setValues(initial);
     } catch {
       setStatus('error');
@@ -87,6 +91,7 @@ export default function ContactForm() {
               {t('contact.form.success')}
             </span>
           )}
+          {status === 'mailto' && <span className="text-white">{t('contact.form.mailto')}</span>}
           {status === 'error' && <span className="text-white">{t('contact.form.error')}</span>}
         </p>
       </div>

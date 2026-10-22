@@ -25,8 +25,8 @@ export default function Hero() {
           {t('hero.eyebrow')}
         </p>
 
-        <h1 className="mt-8 pb-2 font-display text-6xl leading-tight font-bold italic sm:text-8xl lg:text-9xl">
-          <span className="pr-2 text-white [text-shadow:0_4px_24px_rgb(0_0_0/0.55)]">{site.name}</span>
+        <h1 className="mt-8 pb-2 font-display text-5xl leading-tight font-bold italic text-balance sm:text-7xl lg:text-8xl">
+          <span className="pr-2 text-white [text-shadow:0_4px_24px_rgb(0_0_0/0.55)]">{site.fullName}</span>
         </h1>
 
         <div className="mx-auto mt-10 max-w-2xl">
