@@ -20,7 +20,5 @@ export const site = {
   ],
   socials: {
     instagram: 'https://instagram.com/themiscourts',
-    linkedin: 'https://linkedin.com/company/themiscourts',
-    youtube: 'https://youtube.com/@themiscourts',
   },
 };

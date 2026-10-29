@@ -52,6 +52,11 @@
   h1, h2, h3, h4 {
     @apply font-display text-ink;
   }
+  /* Görseller sürüklenip yeni sekmede açılamasın (Firefox için main.jsx'te dragstart engeli var) */
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

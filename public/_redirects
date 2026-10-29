@@ -1,0 +1,2 @@
+# Netlify / Cloudflare Pages: send every path to the React app so refreshing a page does not 404
+/*  /index.html  200
