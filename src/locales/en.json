@@ -288,7 +288,8 @@
     "quickLinks": "Quick Links",
     "follow": "Follow Us",
     "rights": "All rights reserved.",
-    "backToTop": "Back to top"
+    "backToTop": "Back to top",
+    "developer": "Developed by"
   },
   "notFound": {
     "text": "The page you are looking for may have moved or never existed.",

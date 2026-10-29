@@ -64,6 +64,17 @@ export default function Footer() {
           <p>
             © {year} {site.name}. {t('footer.rights')}
           </p>
+          <p>
+            {t('footer.developer')}{' '}
+            <a
+              href="https://civandemir.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-white/80 underline-offset-4 transition hover:text-white hover:underline"
+            >
+              Cıvan Demir
+            </a>
+          </p>
           <button type="button" onClick={() => window.scrollTo({ top: 0 })} className="hover:text-white">
             ↑ {t('footer.backToTop')}
           </button>

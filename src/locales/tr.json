@@ -288,7 +288,8 @@
     "quickLinks": "Hızlı Bağlantılar",
     "follow": "Bizi Takip Edin",
     "rights": "Tüm hakları saklıdır.",
-    "backToTop": "Başa dön"
+    "backToTop": "Başa dön",
+    "developer": "Geliştirici:"
   },
   "notFound": {
     "text": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir.",
