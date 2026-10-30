@@ -170,6 +170,7 @@
       "director": "Director of {{dept}}",
       "chiefOfStaff": "Chief of Administrative Staff",
       "itCoHead": "Co-Head of IT",
+      "itCoHeads": "Co-Heads of IT",
       "secretaryGeneral": "Secretary General",
       "deputySecretaryGeneral": "Deputy Secretary General",
       "usg": "Under Secretary General of {{court}}"

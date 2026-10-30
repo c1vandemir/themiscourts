@@ -4,7 +4,7 @@ const sizes = {
   lg: 'h-32 w-32 text-3xl',
 };
 
-function initials(name) {
+export function initials(name) {
   return name
     .replace(/^(Prof\.|Doç\.|Dr\.|\s)+/g, '')
     .split(' ')

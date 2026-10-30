@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import Section from '../../ui/Section';
 import SectionHeading from '../../ui/SectionHeading';
 import Tabs, { TabPanel } from '../../ui/Tabs';
-import MemberCard from './MemberCard';
 import FeaturedMemberCard from './FeaturedMemberCard';
 import { featured, team } from '../../../data/team';
 
@@ -58,9 +57,14 @@ export default function Team({ withHeading = true }) {
               {t(`team.groups.${group}`)}
               <span aria-hidden="true" className="h-px flex-1 bg-line" />
             </h3>
-            <ul className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <ul className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {members.map((member) => (
-                <MemberCard key={member.name + member.role} name={member.name} photo={member.photo} role={roleLabel(member)} />
+                <FeaturedMemberCard
+                  key={member.name + member.role}
+                  name={member.name}
+                  photo={member.photo}
+                  role={roleLabel(member)}
+                />
               ))}
             </ul>
           </div>
