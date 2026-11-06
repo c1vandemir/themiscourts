@@ -14,8 +14,8 @@ export default function Hero() {
       {/* Arka plan: kampüs fotoğrafı + yalnızca okunabilirlik için hafif, renksiz karartma */}
       <img
         src={heroImage}
-        alt=""
-        aria-hidden="true"
+        alt={t('hero.imageAlt')}
+        fetchPriority="high"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-center"
       />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-b from-black/35 via-black/15 to-black/45" />

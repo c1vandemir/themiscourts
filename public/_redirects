@@ -1,2 +1,12 @@
-# Netlify / Cloudflare Pages: send every path to the React app so refreshing a page does not 404
-/*  /index.html  200
+# Netlify / Cloudflare Pages
+# Her sayfa build sırasında kendi HTML dosyasına önceden render edilir (scripts/prerender.js).
+# Adresler sonda eğik çizgi olmadan, yönlendirmesiz şekilde bu dosyalardan sunulur.
+/courts    /courts/index.html    200
+/team      /team/index.html      200
+/venue     /venue/index.html     200
+/sponsors  /sponsors/index.html  200
+/faq       /faq/index.html       200
+/contact   /contact/index.html   200
+
+# Bilinmeyen adresler: uygulamanın "Sayfa Bulunamadı" ekranı, gerçek 404 durum koduyla
+/*  /404.html  404

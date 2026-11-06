@@ -1,6 +1,37 @@
 {
-  "meta": {
-    "title": "Themis Courts 2027 | Law Simulation"
+  "seo": {
+    "home": {
+      "title": "Themis Court Simulations | Themis Courts – Court Simulation",
+      "description": "Themis Court Simulations (Themis Courts) is a national law simulation in its 11th year, with six courts at Kadir Has University, Istanbul, on 5–7 February 2027."
+    },
+    "courts": {
+      "title": "Courts | Themis Court Simulations",
+      "description": "The courts of Themis Court Simulations’27: Constitutional Court, High Criminal Court, CAS, ISTAC, ECHR and WIPO. Four in Turkish, two in English — pick yours."
+    },
+    "team": {
+      "title": "Team | Themis Court Simulations",
+      "description": "Meet the team behind Themis Court Simulations: the executive board, director general’s office, secretariat, directors and the academic leads of every court."
+    },
+    "venue": {
+      "title": "Venue & Travel | Themis Court Simulations",
+      "description": "Themis Courts takes place at Kadir Has University Cibali Campus on the Golden Horn. Step-by-step directions from the airport, bus terminal and city, plus a map."
+    },
+    "sponsors": {
+      "title": "Sponsors | Themis Court Simulations",
+      "description": "Sponsors of Themis Court Simulations and sponsorship opportunities for organisations that want to meet the next generation of lawyers at Themis Courts."
+    },
+    "faq": {
+      "title": "FAQ | Themis Court Simulations",
+      "description": "Frequently asked questions about Themis Courts: participation fee, the Turkish and English working languages of the courts, and participation certificates."
+    },
+    "contact": {
+      "title": "Contact | Themis Court Simulations",
+      "description": "Contact Themis Court Simulations: general enquiries, public relations and sponsorship email addresses, plus a contact form. We reply within 48 hours at most."
+    },
+    "notFound": {
+      "title": "Page Not Found | Themis Court Simulations",
+      "description": "The page you are looking for may have moved or never existed. Visit the Themis Court Simulations home page to explore the courts and event information."
+    }
   },
   "nav": {
     "home": "Home",
@@ -26,7 +57,8 @@
       "hours": "Hours",
       "minutes": "Minutes",
       "seconds": "Seconds"
-    }
+    },
+    "imageAlt": "Kadir Has University Cibali Campus, the historic Cibali Tobacco Factory building"
   },
   "letters": {
     "eyebrow": "Welcome",

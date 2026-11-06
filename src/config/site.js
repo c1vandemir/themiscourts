@@ -20,5 +20,7 @@ export const site = {
   ],
   socials: {
     instagram: 'https://instagram.com/themiscourts',
+    // Değiştirirseniz index.html'deki JSON-LD "sameAs" listesini de güncelleyin
+    linkedin: 'https://www.linkedin.com/company/themiscourtsimulations/',
   },
 };

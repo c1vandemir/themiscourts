@@ -1,14 +1,14 @@
 import { useTranslation } from 'react-i18next';
 import PageHeader from '../components/layout/PageHeader';
 import Courts from '../components/sections/Courts/Courts';
-import { usePageTitle } from '../hooks/usePageTitle';
+import Seo from '../components/seo/Seo';
 
 export default function CourtsPage() {
   const { t } = useTranslation();
-  usePageTitle('courts');
 
   return (
     <>
+      <Seo page="courts" />
       <PageHeader
         crumb={t('nav.courts')}
         eyebrow={t('courts.eyebrow')}

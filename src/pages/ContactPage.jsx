@@ -1,14 +1,14 @@
 import { useTranslation } from 'react-i18next';
 import PageHeader from '../components/layout/PageHeader';
 import Contact from '../components/sections/Contact/Contact';
-import { usePageTitle } from '../hooks/usePageTitle';
+import Seo from '../components/seo/Seo';
 
 export default function ContactPage() {
   const { t } = useTranslation();
-  usePageTitle('contact');
 
   return (
     <>
+      <Seo page="contact" />
       <PageHeader
         crumb={t('nav.contact')}
         eyebrow={t('contact.eyebrow')}

@@ -1,6 +1,37 @@
 {
-  "meta": {
-    "title": "Themis Courts 2027 | Hukuk Simülasyonu"
+  "seo": {
+    "home": {
+      "title": "Themis Court Simulations | Themis Courts – Mahkeme Simülasyonu",
+      "description": "Themis Court Simulations (Themis Courts), 5–7 Şubat 2027'de Kadir Has Üniversitesi'nde altı mahkemeyle düzenlenen, 11. yılındaki ulusal hukuk simülasyonu."
+    },
+    "courts": {
+      "title": "Mahkemeler | Themis Court Simulations",
+      "description": "Themis Court Simulations mahkemeleri: Anayasa Mahkemesi, Ağır Ceza Mahkemesi, CAS, ISTAC, AİHM ve WIPO. Dördü Türkçe, ikisi İngilizce altı mahkemeyi keşfedin."
+    },
+    "team": {
+      "title": "Ekip | Themis Court Simulations",
+      "description": "Themis Court Simulations'ı hazırlayan ekiple tanışın: yürütme kurulu, genel direktörlük, genel sekreterlik, direktörler ve mahkemelerin akademik sorumluları."
+    },
+    "venue": {
+      "title": "Mekan ve Ulaşım | Themis Court Simulations",
+      "description": "Themis Courts, Haliç kıyısındaki Kadir Has Üniversitesi Cibali Kampüsü'nde. Havalimanı, otogar ve şehir içinden kampüse ulaşım rehberi ve konum haritası."
+    },
+    "sponsors": {
+      "title": "Sponsorlar | Themis Court Simulations",
+      "description": "Themis Court Simulations sponsorları ve sponsorluk fırsatları. Genç hukukçularla buluşmak isteyen kurumlar için Themis Courts iş birliği olanaklarını keşfedin."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular | Themis Court Simulations",
+      "description": "Themis Courts hakkında sıkça sorulan sorular: katılım ücreti, mahkemelerin Türkçe ve İngilizce çalışma dilleri ve tüm katılımcılara verilen katılım sertifikası."
+    },
+    "contact": {
+      "title": "İletişim | Themis Court Simulations",
+      "description": "Themis Court Simulations ile iletişime geçin: genel iletişim, halkla ilişkiler ve sponsorluk e-posta adresleri ile iletişim formu. En geç 48 saat içinde dönüş."
+    },
+    "notFound": {
+      "title": "Sayfa Bulunamadı | Themis Court Simulations",
+      "description": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir. Themis Court Simulations ana sayfasından mahkemeleri ve etkinlik bilgilerini inceleyebilirsiniz."
+    }
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -26,7 +57,8 @@
       "hours": "Saat",
       "minutes": "Dakika",
       "seconds": "Saniye"
-    }
+    },
+    "imageAlt": "Kadir Has Üniversitesi Cibali Kampüsü, tarihi Cibali Tütün Fabrikası binası"
   },
   "letters": {
     "eyebrow": "Hoş Geldiniz",

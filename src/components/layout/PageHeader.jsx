@@ -2,6 +2,7 @@ import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { ChevronRight } from 'lucide-react';
 import Container from '../ui/Container';
+import { site } from '../../config/site';
 
 /** Alt sayfaların üstündeki lacivert başlık bandı (şeffaf navbar bunun üzerine oturur). */
 export default function PageHeader({ crumb, eyebrow, title, subtitle }) {
@@ -27,7 +28,11 @@ export default function PageHeader({ crumb, eyebrow, title, subtitle }) {
         {eyebrow && (
           <p className="mt-6 text-xs font-semibold uppercase tracking-[0.25em] text-white">{eyebrow}</p>
         )}
-        <h1 className="mt-3 text-4xl font-bold text-white sm:text-5xl">{title}</h1>
+        <h1 className="mt-3 text-4xl font-bold text-white sm:text-5xl">
+          {title}
+          {/* Marka adı başlığın parçası (arama motorları ve ekran okuyucular için); görsel tasarım değişmez */}
+          <span className="sr-only"> – {site.fullName}</span>
+        </h1>
         <span aria-hidden="true" className="mx-auto mt-6 block h-0.5 w-14 bg-white" />
         {subtitle && <p className="mx-auto mt-6 max-w-2xl leading-relaxed text-white/80">{subtitle}</p>}
       </Container>
