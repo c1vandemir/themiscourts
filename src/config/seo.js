@@ -8,15 +8,17 @@ export const SITE_URL = 'https://themiscourtsim.com';
 export const PRERENDER_LANGUAGE = 'tr';
 
 // Arama motoruna açık sayfalar. `file`: dist içinde üretilecek statik HTML dosyası.
+// Alt sayfalar klasör (courts/index.html) değil düz dosya (courts.html) olarak üretilir: Netlify klasörleri
+// /courts → /courts/ şeklinde 301 ile yönlendirir, düz dosyaları ise /courts adresinden doğrudan sunar.
 // Yeni bir route eklerseniz buraya ve public/sitemap.xml'e de ekleyin.
 export const pages = {
   home: { path: '/', file: 'index.html' },
-  courts: { path: '/courts', file: 'courts/index.html' },
-  team: { path: '/team', file: 'team/index.html' },
-  venue: { path: '/venue', file: 'venue/index.html' },
-  sponsors: { path: '/sponsors', file: 'sponsors/index.html' },
-  faq: { path: '/faq', file: 'faq/index.html' },
-  contact: { path: '/contact', file: 'contact/index.html' },
+  courts: { path: '/courts', file: 'courts.html' },
+  team: { path: '/team', file: 'team.html' },
+  venue: { path: '/venue', file: 'venue.html' },
+  sponsors: { path: '/sponsors', file: 'sponsors.html' },
+  faq: { path: '/faq', file: 'faq.html' },
+  contact: { path: '/contact', file: 'contact.html' },
   // Bilinmeyen tüm adresler için Netlify'ın 404 durum koduyla sunduğu sayfa
   notFound: { path: '*', file: '404.html', noindex: true },
 };
